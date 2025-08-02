@@ -27,6 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header> I am the headers {new Date().toLocaleString()}</header>
         {children}
       </body>
     </html>
